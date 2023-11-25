@@ -25,7 +25,7 @@
                         </a>
                     </li>
                     <li class="nav__sign-in">
-                        <button style="height:50px;width:120px" class="sing-in">
+                        <button class="sing-in">
                             <span id="search" class="nav__link">Sign in</span>
                         </button>
                     </li>
@@ -35,13 +35,117 @@
     </header>
 
     <main class="main">
+        <section class="frontpage">
+            <ul class="frontpage__list">
+                <li class="frontpage__item"><h1 class="frontpage__h1">Survival</h1></li>
+                <li class="frontpage__item">
+                    <span class="frontpage__text">
+                    What this means is that we exist
+                    to help protect our environment 
+                    and do in numbers of ways. You
+                     can save the planet by donation.
+                    </span>
+                </li>
+                <li class="frontpage__item">
+                    <button class="frontpage__button">
+                        <span class="frontpage__link">Donate</span>
+                    </button>
+                </li>
+            </ul>
+        </section>
 
+        <section class="articles">
+            <h2 class="articles__title">Latest articles</h2>
+            <h4 class="articles__description">Breaking news from the wild</h4>
+            <div class="articles__cards">
+                <button class="cards__arrow">
+                    <img src="./assets/Images/SVG/arrow_left.svg" alt="switch left" class="cards__arrows">
+                </button>
+
+                <ul class="cards__list">
+                    <li class="cards__item">
+                        <button class="cards__card">
+                            <img src="./assets/Images/deer.jpg" alt="Deer image" class="cards__image">
+                            <h5 class="cards__animal">Deer</h5>
+                            <p class="cards__title">Naturalist investigation</p>
+                        </button>
+                    </li>
+                    <li class="cards__item">
+                        <button class="cards__card">
+                            <img src="./assets/Images/squirrel.jpg" alt="Squirrel image" class="cards__image">
+                            <h5 class="cards__animal">Squirrel</h5>
+                            <p class="cards__title">Kamikaze squirrels</p>
+                        </button>
+                    </li>
+                    <li class="cards__item">
+                        <button class="cards__card">
+                            <img src="./assets/Images/bird.jpg" alt="Bird image" class="cards__image">
+                            <h5 class="cards__animal">Bird</h5>
+                            <p class="cards__title">Birds Fight club</p>
+                        </button>
+                    </li>
+                </ul>
+                
+                <button class="cards__arrow">
+                    <img src="./assets/Images/SVG/arrow_right.svg" alt="switch right" class="cards__arrows">
+                </button>
+            </div>
+
+        </section>
+
+        <section class="subscribe">
+            <div class="subscribe__field">
+                <h3 class="subscribe__title">Get notified about new amazing articles</h3>
+                <div class="subscribe__form">
+                    <input class="subscribe__email" type="text" id="e-mail" placeholder="Email">
+                    <button class="subscribe__button"><span class="button__text">Send</span></button>
+                </div>
+
+            </div>
+        </section>
     </main>
 
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="wildlife">
+                <img src="/assets/Images/SVG/wildlife_logo.svg" alt="logo" class="wildlife__logo">
+                <span class="wildlife__title">WILDLIFE</span>
+            </div>
 
 
+            <ul class="about__list">
+                <li class="about__item"><a href="#" class="about__link">Articles</a></li>
+                <li class="about__item"><a href="#" class="about__link">About us</a></li>
+                <li class="about__item"><a href="#" class="about__link">Learn more</a></li>
+            </ul>
 
 
+            <div class="footer__media">
+                <ul class="media__list">
+                    <li class="media__item">
+                        <a href="#" class="media__link">
+                            <img src="./assets/Images/SVG/links/facebook.svg" alt="facebook link" class="media__img">
+                        </a>
+                    </li>
+                    <li class="media__item">
+                        <a href="#" class="media__link">
+                            <img src="./assets/Images/SVG/links/instagram.svg" alt="instagram link" class="media__img">
+                        </a>
+                    </li>
+                    <li class="media__item">
+                        <a href="#" class="media__link">
+                            <img src="./assets/Images/SVG/links/pinterest.svg" alt="pinterest link" class="media__img">
+                        </a>
+                    </li>
+                    <li class="media__item">
+                        <a href="#" class="media__link">
+                            <img src="./assets/Images/SVG/links/telegramm.svg" alt="telegramm link" class="media__img">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
