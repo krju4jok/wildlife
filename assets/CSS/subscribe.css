@@ -1,6 +1,6 @@
 .subscribe {
     background-color: #CCCCCC;
-    height: 635px;
+    height: 555px;
     width: 1440px;
     text-align: center;
 }
@@ -62,7 +62,6 @@
     height: 60px;
 
     position: relative;
-    padding-left:;
 }
 
 .button__text {
