@@ -1,0 +1,73 @@
+.header {
+    text-align: center;
+}
+
+.wildlife {
+    vertical-align: middle;
+    height: 60px;
+    display: table;
+
+}
+
+.wildlife__title {
+    font-family: Roboto;
+    font-size: 32px;
+    color: white;
+    vertical-align: middle;
+    display: table-cell;
+    position: relative;
+    left: 15px;
+}
+
+.wildlife__logo {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.nav__block {
+    margin-top: 7px;
+    line-height: 30px;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    gap: 62px;
+}
+
+.nav__item {
+
+}
+
+.nav__link{
+    font-family: 'Open Sans';
+    font-size: 23px;
+    font-weight: 400;
+    color: white;
+}
+
+#search {
+    font-family: Roboto;
+}
+
+
+.nav__search {
+    position: relative;
+    top: 3px;
+}
+
+.nav__sign-in {
+    position: relative;
+    bottom: 2px;
+}
+
+.sign-in {
+    border: #CD6326 solid 2px;
+    border-radius: 5px;
+}
